@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { Navbar } from "./components/navbar";
+import { Footer } from "./components/footer";
+
 import '../styles/globals.css'
 
 export const metadata = {
@@ -10,24 +12,20 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <>
       <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
       </head>
-      <body>
+      <Navbar />
 
-        <Navbar />
 
-        {children}
-      </body>
-      <footer>
-        <div class="line1"></div>
-        SExos
-        <div class="line2"></div>
-      </footer>
-    </html>
+      {children}
+      <Footer />
+
+    </>
+
   )
 }

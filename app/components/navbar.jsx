@@ -21,19 +21,22 @@ const links = [
 export function Navbar() {
     return (
         /*Hashearemos con class, esto se hace para contar con id privadas en los css y no topar con los globals */
+        <header className={styles.header}>
+            <nav >
 
-        <nav className={styles.header}>
-            <ul className={styles.navbar}>
-                {links.map(({ label, route }) => (
-                    <li key={route} className={styles.sex}>
+                <ul className={styles.navbar}>
 
-                        <Link href={route}>
-                            {label}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
-        </nav>
+                    {links.map(({ label, route }) => (
+                        <li key={route} className={styles.sex}>
+
+                            <Link href={route}>
+                                {label}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
+        </header>
 
     )
 }

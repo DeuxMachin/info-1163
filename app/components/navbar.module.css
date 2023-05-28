@@ -1,24 +1,26 @@
 .header {
-    position: absolute;
-    padding: 0;
+    position: relative;
+    padding: 0%;
     background-color: #4976A1;
-    width: 100vmax;
-    height: 4vmax;
-    margin: 0px;
-    top: 0px;
+    background-size: 100% 500px;
+    width: 100%;
+    height: 8%;
+    margin: 0%;
+    top: 0%;
     bottom: 0%;
 }
 
 .navbar {
 
+    height: 95%;
     display: flex;
     list-style: none;
-    gap: 14px;
+    gap: 1%;
     font-family: 'Inter';
     font-style: normal;
     font-size: 14px;
     justify-content: right;
-    padding-right: 1rem;
+    padding-right: 1%;
     align-items: center;
     position: relative;
 }
@@ -30,8 +32,9 @@
 }
 
 .sex {
+
     background-color: #6DA5FA;
     padding: 1% 1%;
-    border-radius: 56px;
+    border-radius: 10%;
 
 }

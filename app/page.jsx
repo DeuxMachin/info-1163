@@ -6,31 +6,28 @@ export default function HomePage() {
     return (
 
         <>
-
-            <main>
-                <div class="sex2">
-
-                    <div class="imagen-circular"></div>
-                    <div class="Cont-destacado">
-                        <h3 class="Titulo-destacado">Nombre del Producto</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dluptate velit esse cillum dolore eu fug </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dluptate velit esse cillum dolore eu fug </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dluptate velit esse cillum dolore eu fug </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dluptate velit esse cillum dolore eu fug </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dluptate velit esse cillum dolore eu fug </p>
-                    </div>
+            <section>
+                <div className="Contenedor-Main">
+                    <h3 className="Titulo-Destacado">Nombre del Producto</h3>
+                    <div className="imagen-circular"></div>
                 </div>
-                <div class="sex3">
-                    <h2>PROBANDO EL DIV2</h2>
+                <div className="Contenedor-Destacado">
+
+                    <img src="./hutao.png" className="Imagen1" alt="Imagen Venta" />
+                    <h3 className="Texto1">Este es el titulo 1</h3>
+
+                    <img src="./raiden.png" className="Imagen2" alt="Imagen Venta" />
+                    <h3 className="Texto2">Este es el titulo 2</h3>
+
+                    <img src="./kequin.png" className="Imagen3" alt="Imagen Venta" />
+                    <h3 className="Texto3">Este es el titulo 3</h3>
+
                 </div>
-            </main>
-
-
-
-
-
+            </section>
 
         </>
+
+
 
     )
 }

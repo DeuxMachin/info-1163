@@ -1,0 +1,42 @@
+.pie {
+
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 3rem;
+
+    width: 100%;
+    background: #4976A1;
+
+}
+
+.gmail {
+    position: relative;
+    width: 2.2%;
+    left: 50%;
+    top: 1%;
+}
+
+.ig {
+    position: relative;
+    width: 3%;
+    left: 45%;
+    top: 3%;
+}
+
+.linea1 {
+    position: relative;
+    border: none;
+    left: 22%;
+    border-top: 3px solid #000;
+    width: 50%;
+}
+
+.linea2 {
+    position: relative;
+    border: none;
+    left: 22%;
+
+    border-top: 3px solid #000;
+    width: 50%;
+}
