@@ -1,0 +1,270 @@
+.usercontainer
+{
+    position:absolute;
+    width:45%;
+    height:50%;
+    top:12%;
+    left:2%;
+    background-color:#C3DBFF;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.user
+{
+    position: absolute;
+    top: 5%;
+    width:40%;
+    height:60%;
+}
+
+.namecontainer
+{
+    position:absolute;
+    width:50%;
+    height:10%;
+    top: 4%;
+    right:4%;
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.emailcontainer
+{
+    position:absolute;
+    width:50%;
+    height:10%;
+    top: 19%;
+    right:4%;
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.phonecontainer
+{
+    position:absolute;
+    width:50%;
+    height:10%;
+    top: 34%;
+    right:4%;
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.regioncontainer
+{
+    position:absolute;
+    width:50%;
+    height:10%;
+    top: 49%;
+    right:4%;
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.citycontainer
+{
+    position:absolute;
+    width:50%;
+    height:10%;
+    top: 64%;
+    right:4%;
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.gendercontainer
+{
+    position:absolute;
+    width:50%;
+    height:10%;
+    top: 79%;
+    right:4%;
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.changecontainer
+{
+    position:absolute;
+    width:25%;
+    height:10%;
+    top: 70%;
+    left:7%;
+    background-color:yellow;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.changecontainer2
+{
+    position:absolute;
+    width:25%;
+    height:10%;
+    top: 85%;
+    left:7%;
+    background-color:yellow;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.insidetext
+{
+    color: black;
+    font-size: 1em;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-decoration:none
+}
+
+.insidetextchange
+{
+    color: black;
+    font-size: 1em;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-decoration:none
+}
+
+.insidetextchange2
+{
+    color: black;
+    font-size: 1em;
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    text-decoration:none
+}
+
+.titletext
+{
+    color: black;
+    font-size: 2em;
+    position: absolute;
+    top: 61%;
+    left: 4%;
+}
+
+.postcontainer
+{
+    position:absolute;
+    width:96%;
+    height:22%;
+    top:69%;
+    left:2%;
+    background-color:#C3DBFF;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.post1
+{
+    position: absolute;
+    left: 5%;
+    background-position: center;
+    background-size: cover;
+    width:10%;
+    height:80%;
+}
+
+.post1text
+{
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    top: 80%;
+    left: 6%;
+}
+
+.post1edit
+{
+    position: absolute;
+    left: 16%;
+    top:10%;
+    background-position: center;
+    background-size: cover;
+    width:3%;
+    height:25%;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.post1del
+{
+    position: absolute;
+    left: 16%;
+    top:45%;
+    background-position: center;
+    background-size: cover;
+    width:3%;
+    height:25%;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.leftarrow
+{
+    position: absolute;
+    left: 1%;
+    top:35%;
+    transform: rotate(180deg);
+    background-position: center;
+    background-size: cover;
+    width:3%;
+    height:30%;
+}
+
+.rightarrow
+{
+    position: absolute;
+    right: 1%;
+    top:35%;
+    background-position: center;
+    background-size: cover;
+    width:3%;
+    height:30%;
+}
+
+.extracontainer
+{
+    position:absolute;
+    width:30%;
+    height:20%;
+    top:12%;
+    right:2%;
+    background-color:#C3DBFF;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.registerdatecont
+{
+    position:absolute;
+    width:90%;
+    height:25%;
+    top: 17%;
+    right:4%;
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.verifiedmailcont
+{
+    position:absolute;
+    width:90%;
+    height:25%;
+    top: 56%;
+    right:4%;
+    background-color:white;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}

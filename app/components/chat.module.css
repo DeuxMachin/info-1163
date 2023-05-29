@@ -1,0 +1,78 @@
+.container
+{
+    position:absolute;
+    content:"";
+    width:40%;
+    height:17%;
+    top:15%;
+    left:5%;
+    background-color:lightgray;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.container2
+{
+    position:absolute;
+    content:"";
+    width:40%;
+    height:17%;
+    top:15%;
+    left:53%;
+    background-color:lightgray;
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.title
+{
+    color: black;
+    font-size: 2em;
+    position: absolute;
+    top: -10%;
+    left: 25%;
+}
+
+.lastmsg
+{
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    text-decoration:none
+}
+
+.user
+{
+    position: absolute;
+    top: 5%;
+    width:25%;
+    height:90%;
+}
+
+.online
+{
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    width:6%;
+    height:25%;
+}
+
+.date
+{
+    color: rgb(90, 88, 88);
+    font-size: 1.4em;
+    position: absolute;
+    top: 55%;
+    left: 78%;
+    text-decoration:none
+}
+
+.filldiv {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}

@@ -1,8 +1,11 @@
 "use client";
+import { Navbar } from "../components/navbar";
 import React from "react";
 
 export default function RegisterPage() {
     return (
+        <>
+        <Navbar />
 
         <article className="section-register">
             <div className="form-box-register">
@@ -59,6 +62,8 @@ export default function RegisterPage() {
                 </form>
             </div>
         </article>
+
+        </>
 
     )
 }

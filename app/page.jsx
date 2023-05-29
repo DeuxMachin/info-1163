@@ -1,11 +1,13 @@
 "use client";
 import React from "react";
 import '../styles/globals.css'
+import { Navbar } from "./components/navbar";
 
 export default function HomePage() {
     return (
 
         <>
+        <Navbar />
             <section>
                 <div className="Contenedor-Main">
                     <h3 className="Titulo-Destacado">Nombre del Producto</h3>
