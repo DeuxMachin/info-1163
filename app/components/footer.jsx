@@ -2,19 +2,19 @@
 import React from "react";
 import Link from "next/link";
 import styles from './footer.module.css';
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
 
 
 export function Footer() {
     return (
         /*Hashearemos con class, esto se hace para contar con id privadas en los css y no topar con los globals */
-        <footer className={styles.pie}>
+        <div className={styles.piepagina}>
 
-            <div className={styles.linea1} />
-            <img src="../GmailIcon.png" className={styles.gmail} />
-            <img src="../IgIcon.png" className={styles.ig} />
-            <div className={styles.linea2} />
-
-        </footer>
+            <div className={styles.grupo2}>
+                <small>&copy; 2023 <b>D.A.L.E.S</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </div>
 
     )
 }
